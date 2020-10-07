@@ -1,0 +1,75 @@
+[
+    {
+        "name": "GPIOA",
+        "baseAddress": "0x5000",
+        "registers": [
+            {
+                "name": "ODR",
+                "bytes": 1,
+                "fields": [
+                    {
+                        "name": "0",
+                        "bitsOffset": 0,
+                        "bitsWidth": 1
+                    }
+                ]
+            },
+            {
+                "name": "IDR",
+                "bytes": 1
+            },
+            {
+                "name": "DDR",
+                "bytes": 1
+            },
+            {
+                "name": "CR1",
+                "bytes": 1
+            },
+            {
+                "name": "CR2",
+                "bytes": 1
+            }
+        ]
+    },
+    {
+        "name": "FLASH",
+        "baseAddress": "0x505A",
+        "registers": [
+            {
+                "name": "CR1",
+                "bytes": 1
+            },
+            {
+                "name": "CR2",
+                "bytes": 1
+            },
+            {
+                "name": "NCR2",
+                "bytes": 1
+            },
+            {
+                "name": "FPR",
+                "bytes": 1
+            },
+            {
+                "name": "NFPR",
+                "bytes": 1
+            },
+            {
+                "name": "IAPSR",
+                "bytes": 1
+            },
+            {
+                "name": "PUKR",
+                "baseAddress": "0x5062",
+                "bytes": 1
+            },
+            {
+                "name": "DUKR",
+                "baseAddress": "0x5064",
+                "bytes": 1
+            }
+        ]
+    }
+]
