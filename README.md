@@ -52,4 +52,4 @@ debug软件还没找到，openocd不支持stm8，这个后面再说吧。
 |所在文件|解释|
 |-|-|
 |chip/stm8s103.h|参考手册（319页）中I2C的寄存器只到I2C_TRISER，但是数据手册（35页）在这个寄存器后面还有一个I2C_PECR，不知道有什么用的，以后用到的时候请注意。|
-|source/USER/stm8s_conf.h|第90行的宏定义我注释掉了，#define USE_FULL_ASSERT，不知道为什么不注释的话会报错，?ASlink-Warning-Undefined Global '_assert_failed' referenced by module 'xxxxxx'|
+|source/USER/stm8s_conf.h|第90行的宏定义我注释掉了，#define USE_FULL_ASSERT，不知道为什么不注释的话会报错，?ASlink-Warning-Undefined Global '_assert_failed' referenced by module 'xxxxxx'|# stm8s003
